@@ -1,0 +1,21 @@
+{
+  "name": "typescript-config",
+  "version": "1.0.0",
+  "description": "Simplifeye's Typescript configuration",
+  "main": "tslint.js",
+  "dependencies": {
+    "tslint": "^5.11.0",
+    "tslint-consistent-codestyle": "^1.14.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-microsoft-contrib": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplifeye/tslint-config.git"
+  },
+  "license": "Simplifeye, Inc",
+  "bugs": {
+    "url": "https://github.com/simplifeye/tslint-config/issues"
+  },
+  "homepage": "https://github.com/simplifeye/tslint-config#readme"
+}
