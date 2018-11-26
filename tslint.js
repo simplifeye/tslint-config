@@ -146,7 +146,7 @@ module.exports = {
         "no-unsafe-any": true,
         "no-unsafe-finally": true,
         "no-unused-expression": true,
-        "no-unused-variable": true,
+        // "no-unused-variable": true, redundant TS 2.9
         "no-use-before-declare": true,
         "no-var-keyword": true,
         "no-var-requires": true,
@@ -235,7 +235,7 @@ module.exports = {
                 "variable-declaration": "nospace"
             }
         ],
-        "typeof-compare": true,
+        // "typeof-compare": true, redundant TS 2.2
         "unified-signatures": true,
         "use-default-type-parameter": true,
         "use-isnan": true,
