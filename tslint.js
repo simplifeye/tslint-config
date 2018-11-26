@@ -19,7 +19,7 @@ module.exports = {
         ],
         "arrow-parens": true,
         "arrow-return-shorthand": [true, "multiline"],
-        "await-promise": true,
+        // "await-promise": true, too many external libraries don't return the right types
         "ban": true, // to be enumerated
         "ban-comma-operator": true,
         "binary-expression-operand-order": true,
@@ -143,7 +143,7 @@ module.exports = {
         "no-unnecessary-class": true,
         "no-unnecessary-initializer": false,
         "no-unnecessary-qualifier": true,
-        "no-unsafe-any": true,
+        // "no-unsafe-any": true, too many errors due to third party types
         "no-unsafe-finally": true,
         "no-unused-expression": true,
         // "no-unused-variable": true, redundant TS 2.9
